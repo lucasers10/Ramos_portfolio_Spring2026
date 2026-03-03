@@ -1,0 +1,140 @@
+body{
+background-color: rgb(122, 99, 204);
+}
+
+nav{
+margin-left: 5%; 
+font-size: 30px;
+}
+
+.pages a{  
+font-size: 20px;
+text-decoration: none;
+color: rgb(255, 255, 255);
+border: 1px solid black;
+padding: 4px;
+background-color: rgb(54, 2, 82);
+}
+
+
+
+h1{
+text-align: center;
+font-size: 50px;
+color: white;
+}
+
+h2{
+margin-left: 5%;
+font-size: 40px;
+color: white;
+}
+
+
+#imageOne{
+text-align: center;
+transition: 1s;
+}
+
+#imageOne:hover{
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color:rgb(181, 170, 221);
+  padding: 2% 5% 2% 5%;
+  height: 130%;
+  margin:auto;
+}
+
+#imageTwo{
+text-align: center;
+transition: 1s;
+}
+
+#imageTwo:hover{
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color:rgb(181, 170, 221);
+  padding: 2% 5% 2% 5%;
+  height: 130%;
+  margin:auto;
+}
+
+#imageThree{
+text-align: center;
+transition: 1s;
+}
+
+#imageThree:hover{
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color:rgb(181, 170, 221);
+  padding: 2% 5% 2% 5%;
+  height: 130%;
+  margin:auto;
+}
+
+#linkOne h3{
+text-align: center;
+text-decoration: none;
+font-size: 30px;
+background-color: rgb(54, 2, 82);
+color: white;
+}
+
+#linkTwo h3{
+text-align: center;
+text-decoration: none;
+font-size: 30px;
+background-color: rgb(54, 2, 82);
+color: white;
+}
+
+#linkThree h3{
+text-align: center;
+text-decoration: none;
+font-size: 30px;
+background-color: rgb(54, 2, 82);
+color: white;
+}
+
+#textOne{
+margin-left: 5%;
+margin-right: 5%;
+font-size: 20px;
+
+color: white;
+}
+
+#textTwo{
+margin-left: 5%;
+margin-right: 5%;
+font-size: 20px;
+
+color: white;
+}
+
+#textThree{
+margin-left: 5%;
+margin-right: 5%;
+font-size: 20px;
+
+color: white;
+}
+
+
+footer{
+margin-top: 3%;
+margin-bottom: 3%;
+margin-left: 5%;
+font-size: 20px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+
+footer a{
+font-size: 20px;
+text-decoration: none;
+color: rgb(255, 255, 255);
+border: 1px solid black;
+background-color: rgb(54, 2, 82);
+}
