@@ -11,18 +11,25 @@ background-color: rgb(122, 99, 204);
 header{
     background-color: rgb(137, 216, 238);
 border: 3px solid black;
-margin-bottom: 2%;
+
+display: flex;
+flex-direction:row;
+flex-wrap: nowrap;
+justify-content:space-between;
 }
 
 header img{
-    margin-left: 80%;
-    margin-top: -2%;
-        margin-bottom: -3%;
+    margin-left: 5%; 
+    margin-top: 1%;
+    margin-bottom: 1%;
+
         border: 3px solid black;
 }
 
+
 nav{
-margin-left: 5%;   
+margin-right: 5%;
+
 font-size: 30px;
 }
 
@@ -37,9 +44,10 @@ background-color: rgb(54, 2, 82);
 }
 
 h1{
-text-align: center;
+  text-align: center;
+    margin-top: 5%;
 font-size: 50px;
-color:  rgb(54, 2, 82);
+color: rgb(54, 2, 82);
 }
 
 #images{
