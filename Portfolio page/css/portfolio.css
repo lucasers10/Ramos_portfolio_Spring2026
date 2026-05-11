@@ -5,6 +5,23 @@ box-sizing: border-box;
 }
 
 body{
+  min-height: 100dvh;
+  width: 100%;
+}
+
+header #gif{
+        transition-timing-function:unset;
+        transition-duration: 2s;
+
+
+}
+
+header #gif:hover{
+transform: translate(600px, 400px)
+            scale(3);
+}
+
+body{
 background-color: rgb(122, 99, 204);
 }
 
@@ -16,6 +33,16 @@ display: flex;
 flex-direction:row;
 flex-wrap: nowrap;
 justify-content:space-between;
+
+  font-family: "Bungee", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+
+
+}
+
+header h1{
+   margin-left: 13%;
 }
 
 header img{
@@ -27,17 +54,25 @@ header img{
 }
 
 nav{
-margin-right: 5%;
+margin-right: 3%;
+margin-top: 1%;
 
-font-size: 30px;
+
+}
+
+#animationFadeIn{
+            animation-name: animation;
+ animation-timing-function:ease;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
 
 .pages a{  
-font-size: 20px;
+font-size: 1.25em;
 text-decoration: none;
 color: rgb(255, 255, 255);
 border: 1px solid black;
-padding: 4px;
+padding:  4px;
 background-color: rgb(54, 2, 82);
 }
 
@@ -46,13 +81,13 @@ background-color: rgb(54, 2, 82);
 h1{
   text-align: center;
     margin-top: 5%;
-font-size: 50px;
+font-size: 3.125em;
 color: rgb(54, 2, 82);
 }
 
 h2{
 margin-top: 2%;
-font-size: 40px;
+font-size:  2.5em;
 color: white;
 text-align: center;
 }
@@ -65,7 +100,7 @@ img{
 display: flex;
 gap: 30px;
 flex-direction:row;
-flex-wrap: wrap;
+flex-wrap:wrap;
 justify-content:space-between;
 
 
@@ -81,7 +116,7 @@ footer{
         background-color: rgb(137, 216, 238);
         margin-left: 0%;
         margin-right: 0%;
-        padding: 40px;
+        padding:  40px;
         margin-bottom: 0%;
         border: 3px solid black;
         margin-top: 5%;
@@ -89,15 +124,50 @@ footer{
 
 footer{
 text-align: center;
-font-size: 25px;
+font-size: 1.5625em;
 color: rgb(54, 2, 82);
 text-decoration: none;
 }
 
 footer a{
-font-size: 25px;
+font-size: 1.5625em;
 text-decoration: none;
 color: rgb(255, 255, 255);
 border: 1px solid black;
 background-color: rgb(54, 2, 82);
+}
+
+  @keyframes animation{
+    from{
+        opacity: 0%;
+    }
+
+    to{
+        opacity: 100%;
+    }
+  }
+
+@media screen and (max-width: 600px){
+
+  body {
+      font-size: 50%;
+  }
+  
+  header #gif{
+    width: 50%;
+  }
+  
+
+  nav{
+    display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content:space-between;
+  }
+
+  img{
+    align-content: center;
+  }
+
+
 }

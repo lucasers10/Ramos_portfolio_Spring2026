@@ -2,7 +2,15 @@
 margin: 0;
 padding: 0%;
 }
+header #gif{
+        transition-timing-function:unset;
+        transition-duration: 2s;
+}
 
+header #gif:hover{
+transform: translate(600px, 400px)
+            scale(3);
+}
 
 body{
 background-color: rgb(122, 99, 204);
@@ -16,12 +24,30 @@ display: flex;
 flex-direction:row;
 flex-wrap: nowrap;
 justify-content:space-between;
+
+  font-family: "Bungee", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+
+
+}
+
+header h1{
+   margin-left: 13%;
 }
 
 nav{
-margin-right: 5%;
+margin-right: 3%;
 
 font-size: 30px;
+}
+
+
+#animationFadeIn{
+            animation-name: animation;
+ animation-timing-function:ease;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
 
 header img{
@@ -41,7 +67,9 @@ padding: 4px;
 background-color: rgb(54, 2, 82);
 }
 
-
+a{
+    text-decoration: none;
+}
 
 h1{
   text-align: center;
@@ -54,12 +82,20 @@ h2{
 margin-left: 5%;
 font-size: 40px;
 color: white;
+
+  font-family: "Bungee", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
+img{
+  border: 3px solid black;
+}
 
 #image{
 text-align: center;
 transition: 1s;
+
 }
 
 #image:hover{
@@ -89,7 +125,7 @@ h4{
 margin-left: 5%;
 margin-right: 5%;
 font-size: 20px;
-margin-bottom: 2%;
+margin-bottom: 3%;
 
 color: white;
 }
@@ -118,3 +154,15 @@ color: rgb(255, 255, 255);
 border: 1px solid black;
 background-color: rgb(54, 2, 82);
 }
+
+
+  @keyframes animation{
+    from{
+        opacity: 0%;
+    }
+
+    to{
+        opacity: 100%;
+    }
+  }
+
